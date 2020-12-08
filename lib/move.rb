@@ -8,6 +8,7 @@ end
 
 def initialize(board = nil)
   @board = board || Array.new(9," ")
+end
 
 def input_to_index(num)
   num.to_i - 1 
