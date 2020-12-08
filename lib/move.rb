@@ -7,7 +7,6 @@ def display_board(board)
 end
 
 def input_to_index
-  puts "Where would you like to go?"
   num = gets.strip.to_i
 end
 
