@@ -9,7 +9,7 @@ def display_board(board)
 end
 
 def initialize
-  @board = board || Array.new(9," ")
+  @board = Array.new(9," ")
 end
 
 def input_to_index(num)
