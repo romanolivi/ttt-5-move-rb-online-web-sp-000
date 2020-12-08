@@ -6,6 +6,9 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+def initialize(board = nil)
+  @board = board || Array.new(9," ")
+
 def input_to_index(num)
   num.to_i - 1 
 end
